@@ -30,7 +30,6 @@ wraper.addEventListener('click', (e)=>{
         case action == '-':
         case action == '*':
         case action == '/':
-            key.classList.add('is-depressed');
             wraper.dataset.previousKeyType = "operator";
             wraper.dataset.firstValue = displayedNum;
             wraper.dataset.operator = action;
